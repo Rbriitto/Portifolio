@@ -42,11 +42,14 @@ df_produtos = pd.DataFrame(produtos)
 
 vendas = []
 for i in range(100):
+    cliente = random.choice(df_clientes["CPF"])  # seleciona um cliente aleatório
     produto = random.choice(df_produtos["ID_Produto"])
     quantidade = random.randint(1, 3)
     df_produto = df_produtos[df_produtos["ID_Produto"] == produto].iloc[0]
+    
     vendas.append({
         "ID_Venda": i+1,
+        "CPF_Cliente": cliente,            # adicionando cliente à venda
         "Data_Hora": fake.date_time_between(start_date='-6M', end_date='now'),
         "Produto_Comprado": df_produto["Nome"],
         "Quantidade": quantidade,
@@ -54,6 +57,7 @@ for i in range(100):
         "Valor_Total": round(df_produto["Preço_Unitario"] * quantidade, 2),
         "Local_Venda": random.choice(["Loja Física", "Loja Online"])
     })
+
 df_vendas = pd.DataFrame(vendas)
 
 
