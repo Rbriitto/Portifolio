@@ -1,4 +1,4 @@
-﻿ID_Produto,Nome,Categoria,Preço_Unitario,Estoque_Disponivel
+﻿ID_Produto,Nome_Produto,Categoria,Preço_Unitario,Estoque_Disponivel
 1,Ipsa,Camisetas,287.18,39
 2,Deserunt,Vestidos,92.46,88
 3,Voluptatum,Vestidos,307.05,99

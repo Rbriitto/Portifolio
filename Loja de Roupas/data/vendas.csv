@@ -1,4 +1,4 @@
-﻿ID_Venda,CPF_Cliente,Data_Hora,Produto_Comprado,Quantidade,Forma_Pagamento,Valor_Total,Local_Venda
+﻿ID_Venda,CPF_Cliente,Data_Hora,Nome_Produto,Quantidade,Forma_Pagamento,Valor_Total,Local_Venda
 1,201.693.875-77,2025-08-22 16:37:36,Commodi,3,PIX,482.73,Loja Online
 2,465.972.308-92,2025-06-16 11:14:43,Voluptatibus,2,Cartão,589.58,Loja Online
 3,857.124.693-91,2025-06-23 11:11:47,Quo,2,Cartão,923.42,Loja Física
