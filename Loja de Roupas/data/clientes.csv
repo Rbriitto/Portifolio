@@ -1,51 +1,501 @@
 ﻿CPF,Nome,Idade,Sexo,Localização,Historico_Compras,Preferencias_Produto
-783.459.621-73,Augusto Peixoto,33,Masculino,Câmara,5,Vestidos
-715.204.639-52,Srta. Laura Barros,46,Feminino,Viana,3,Camisetas
-483.659.720-00,Alexandre Souza,58,Masculino,da Costa,0,Calças
-306.459.218-15,Maria Sophia Fogaça,28,Masculino,da Cunha do Campo,16,Vestidos
-285.301.497-50,Heloísa Teixeira,58,Masculino,Pires de Nunes,6,Camisetas
-641.790.382-69,Ana Julia Barros,47,Masculino,da Costa,3,Calças
-796.105.243-70,Sra. Alícia Vasconcelos,34,Feminino,Gomes,10,Camisetas
-745.039.186-48,João Lucas das Neves,25,Masculino,Vieira de da Conceição,3,Calças
-108.264.735-71,Sr. João Felipe Mendonça,34,Feminino,Albuquerque da Mata,12,Acessórios
-698.510.472-01,Gustavo Fogaça,28,Feminino,Almeida,3,Vestidos
-376.904.185-20,Isis Viana,44,Feminino,Vargas,3,Acessórios
-762.104.935-99,Maria Clara Rocha,62,Feminino,Silva da Prata,13,Calças
-189.740.362-31,Bruno Rios,44,Feminino,Farias,19,Vestidos
-201.693.875-77,Sr. André Vieira,39,Feminino,Jesus,2,Camisetas
-094.816.725-49,Luan Cunha,19,Feminino,Azevedo dos Dourados,7,Calças
-261.908.354-06,Gustavo Henrique Cassiano,28,Masculino,Sousa,16,Acessórios
-307.456.921-25,Ana Luiza Lopes,63,Masculino,Nunes de Souza,8,Calças
-128.674.935-28,Srta. Maria Sophia Porto,48,Feminino,das Neves,13,Calças
-194.653.280-06,Ana Liz Silveira,31,Feminino,Moura do Norte,1,Acessórios
-419.806.352-42,Stella Caldeira,32,Feminino,Abreu,0,Vestidos
-834.697.120-69,Sr. Leonardo Moura,64,Masculino,Pimenta,9,Camisetas
-015.463.879-00,Maria Julia Borges,22,Masculino,Vargas,11,Camisetas
-817.045.362-35,Maria Alice Almeida,58,Masculino,Carvalho da Mata,6,Camisetas
-403.985.612-06,Matheus Cavalcanti,48,Masculino,Andrade,4,Camisetas
-297.386.154-37,Srta. Ana Luiza Alves,29,Masculino,Azevedo da Praia,12,Acessórios
-467.021.385-71,Ana Julia da Paz,32,Feminino,da Paz de Martins,12,Calças
-325.864.710-08,Maria Sophia Jesus,61,Feminino,Nascimento,18,Acessórios
-124.768.350-80,Otto Garcia,39,Feminino,da Rocha,0,Camisetas
-698.245.301-42,Joaquim Azevedo,32,Feminino,Caldeira do Campo,14,Acessórios
-281.096.374-69,Luísa Jesus,30,Feminino,Cirino de da Mota,18,Acessórios
-538.109.746-84,Sophie Rios,61,Feminino,Aparecida,10,Acessórios
-025.846.937-47,Sra. Lívia Ramos,18,Feminino,da Paz,6,Vestidos
-384.652.790-47,Manuella Aparecida,22,Masculino,Azevedo do Galho,0,Acessórios
-750.169.482-67,Enzo Leão,24,Masculino,Aragão de Leão,12,Camisetas
-849.062.573-56,Leonardo das Neves,63,Feminino,Almeida,0,Calças
-965.203.184-42,Lorena Dias,26,Feminino,Montenegro do Galho,4,Calças
-703.916.248-22,Yago Oliveira,44,Feminino,Vasconcelos do Oeste,12,Acessórios
-721.305.864-90,Zoe da Cruz,56,Feminino,Fonseca Verde,2,Vestidos
-790.246.583-65,Allana Carvalho,19,Masculino,Martins da Prata,17,Acessórios
-465.972.308-92,Vitor Gabriel Pires,61,Masculino,Dias das Pedras,6,Acessórios
-135.069.287-59,Enrico Araújo,60,Masculino,Nogueira,0,Camisetas
-238.196.405-33,Vinicius Souza,64,Feminino,Andrade de Peixoto,5,Calças
-642.953.018-33,Eloah Abreu,25,Masculino,da Rosa de Melo,18,Calças
-861.403.597-75,Otto Abreu,48,Masculino,Aparecida,9,Camisetas
-706.132.548-80,Emanuelly Casa Grande,37,Feminino,Siqueira de Goiás,14,Camisetas
-368.715.294-46,Dom Teixeira,51,Masculino,Novais das Flores,0,Camisetas
-016.234.958-06,Guilherme Marques,46,Masculino,Marques,19,Camisetas
-857.124.693-91,Alexia Ferreira,28,Masculino,Moura dos Dourados,8,Camisetas
-635.179.482-09,Léo Porto,19,Masculino,Sales,18,Calças
-871.240.639-22,João Vitor Moreira,21,Masculino,Moreira de Duarte,10,Acessórios
+682.471.503-44,Vitória Lopes,61,Masculino,Correia,15,Acessórios
+137.542.809-88,Enzo Gabriel Fogaça,59,Masculino,Farias,19,Vestidos
+073.486.512-08,Eduarda Macedo,60,Feminino,Montenegro,20,Acessórios
+298.314.765-73,Isaac Oliveira,58,Feminino,da Luz,10,Camisetas
+712.863.945-46,Ana Lívia Sales,57,Masculino,Costa do Amparo,3,Acessórios
+751.630.428-07,Henry Souza,43,Feminino,Nunes Grande,18,Vestidos
+963.470.521-99,Sra. Maria Júlia Aparecida,53,Feminino,Freitas do Sul,18,Calças
+159.783.026-77,Ana Clara Moura,33,Feminino,Correia do Campo,18,Camisetas
+586.217.094-49,Lucca da Cunha,64,Feminino,Mendes,16,Camisetas
+016.845.927-20,Rhavi Pastor,18,Feminino,da Mota,7,Vestidos
+436.891.205-51,Davi Miguel Pastor,62,Feminino,Marques das Pedras,15,Camisetas
+031.642.785-35,Ágatha Aragão,27,Feminino,Casa Grande Alegre,20,Camisetas
+639.215.748-46,Nina Souza,33,Masculino,Guerra,17,Calças
+417.605.832-35,Dra. Maria Flor Leão,24,Feminino,Aparecida Grande,4,Acessórios
+436.508.217-53,Sofia Sá,64,Feminino,Viana,2,Acessórios
+248.513.760-90,Liz Casa Grande,63,Masculino,da Conceição de Machado,17,Acessórios
+806.179.324-50,Juan Monteiro,51,Masculino,Duarte,14,Calças
+356.901.874-10,Henry Moraes,64,Masculino,Souza das Flores,4,Acessórios
+084.521.739-97,Théo Gonçalves,35,Feminino,Pinto,8,Acessórios
+582.910.734-14,Aurora Albuquerque,54,Masculino,Barbosa,7,Camisetas
+762.835.019-40,Luara Montenegro,25,Masculino,Silveira,7,Calças
+961.852.704-20,Samuel Jesus,27,Feminino,da Costa Alegre,5,Acessórios
+054.329.861-24,Bruna Peixoto,22,Feminino,Teixeira da Serra,5,Camisetas
+974.501.623-34,Davi Freitas,18,Feminino,Barbosa de Sales,19,Camisetas
+741.306.928-87,Alexia Pereira,56,Feminino,Lima do Campo,7,Calças
+849.571.023-41,Dr. Matteo Almeida,36,Masculino,Viana,14,Calças
+605.317.284-71,Anthony Gabriel Lopes,48,Feminino,Lima Alegre,2,Acessórios
+106.435.287-17,Dr. Nicolas Gomes,20,Masculino,Marques Grande,10,Acessórios
+794.528.316-00,Leandro Martins,35,Masculino,Souza,7,Camisetas
+067.592.384-00,Sr. Valentim Silveira,55,Masculino,Cassiano,20,Vestidos
+297.318.450-97,Amanda da Paz,25,Feminino,Rodrigues Grande,5,Acessórios
+841.759.260-11,Luara Azevedo,25,Feminino,da Luz,14,Calças
+879.543.620-00,Yago Cavalcante,26,Masculino,Melo Paulista,13,Calças
+205.417.936-16,Sophie Pereira,20,Masculino,Freitas do Galho,1,Vestidos
+714.208.536-35,Rhavi Pereira,47,Feminino,Nascimento,5,Camisetas
+106.594.782-85,Ana Lívia Sousa,65,Masculino,Brito,16,Calças
+058.279.136-77,Aurora Cavalcante,46,Feminino,Souza,5,Camisetas
+827.649.015-85,Rodrigo Rodrigues,65,Masculino,da Conceição de da Luz,7,Calças
+617.290.345-43,Ísis Sampaio,24,Masculino,Almeida da Serra,5,Calças
+794.815.260-11,João Guilherme Rodrigues,28,Masculino,Gonçalves Verde,16,Acessórios
+378.201.496-04,Oliver da Paz,65,Feminino,Ribeiro,0,Acessórios
+436.125.807-44,Carlos Eduardo Nogueira,40,Masculino,Sampaio de Sá,20,Vestidos
+574.380.269-65,Helena Aparecida,41,Feminino,da Mota,11,Camisetas
+831.527.406-62,Valentim Ribeiro,53,Feminino,Casa Grande de da Rocha,12,Camisetas
+710.495.268-30,Liz Santos,50,Masculino,Aparecida,13,Camisetas
+479.208.315-04,Dr. João da Costa,42,Feminino,Moraes de Novais,2,Calças
+760.592.843-29,Lucca Santos,56,Feminino,Oliveira de Moura,7,Camisetas
+964.051.728-30,Ravi da Rocha,33,Masculino,Araújo,4,Vestidos
+328.475.160-26,Srta. Alice Alves,60,Masculino,Freitas das Pedras,17,Vestidos
+459.237.168-28,Eduarda Pastor,44,Feminino,da Rosa,9,Camisetas
+946.572.380-00,Maria Luiza Moreira,25,Masculino,Fonseca do Norte,17,Acessórios
+041.793.568-48,Carlos Eduardo Alves,26,Feminino,Mendes de Teixeira,0,Camisetas
+126.395.870-21,Sra. Helena Souza,53,Feminino,Almeida,7,Camisetas
+548.019.372-41,Ravi Barbosa,19,Feminino,Duarte Paulista,1,Vestidos
+714.253.098-79,Heitor Fogaça,26,Feminino,Souza,1,Acessórios
+465.289.170-94,João Pedro Pinto,51,Masculino,Camargo da Mata,7,Acessórios
+159.802.437-04,Ana Liz Monteiro,47,Masculino,da Mota de Rezende,12,Camisetas
+582.493.167-46,Carolina Vargas,48,Masculino,Alves,15,Acessórios
+798.143.265-00,Laís Moraes,49,Masculino,Garcia,19,Vestidos
+079.685.234-00,Hadassa Souza,42,Masculino,Rodrigues,14,Calças
+879.520.413-04,Maria Laura Rodrigues,23,Masculino,Farias de Goiás,13,Vestidos
+789.314.560-93,Dr. Paulo Costela,60,Feminino,Gonçalves,1,Acessórios
+897.264.503-65,Maria Vitória Monteiro,35,Masculino,Casa Grande de Dias,3,Vestidos
+985.460.327-00,Renan Rodrigues,41,Masculino,Rios Grande,0,Vestidos
+318.960.745-10,Theo Ferreira,56,Feminino,Rodrigues,1,Acessórios
+579.482.016-02,Dr. Heitor Azevedo,34,Masculino,Rodrigues da Praia,11,Calças
+965.432.071-16,Sabrina Duarte,47,Feminino,Sampaio,18,Calças
+240.578.963-92,Theo Araújo,49,Feminino,Costa,12,Vestidos
+165.098.432-42,Luiz Otávio Pastor,60,Masculino,Porto Grande,6,Camisetas
+852.713.604-07,Sra. Luísa Machado,40,Masculino,Lopes,5,Calças
+159.364.087-01,Sr. Thiago Ramos,41,Feminino,Fonseca,18,Camisetas
+375.104.269-52,Julia Costa,50,Feminino,da Cruz,15,Calças
+729.514.638-55,Sr. Matheus Gonçalves,54,Feminino,Viana de Lima,13,Vestidos
+726.193.540-99,Breno Barbosa,34,Feminino,Correia de Mendes,15,Calças
+016.798.432-22,Caroline Freitas,48,Masculino,Nunes Alegre,7,Acessórios
+987.653.241-37,Renan Teixeira,43,Feminino,da Rocha,15,Vestidos
+678.532.904-38,Sra. Liz Pereira,38,Masculino,Aparecida de Camargo,11,Camisetas
+975.124.860-49,Lavínia Moraes,49,Feminino,Montenegro das Pedras,17,Camisetas
+307.926.154-25,Maria Pacheco,52,Masculino,Almeida do Sul,9,Camisetas
+610.783.592-02,Fernando Ribeiro,47,Masculino,Novais,16,Calças
+506.327.981-30,Liam Marques,42,Feminino,Barbosa do Norte,13,Acessórios
+674.203.159-06,Sr. Henry Cassiano,38,Feminino,Vasconcelos,0,Calças
+017.682.549-58,Yuri Monteiro,24,Feminino,Teixeira,6,Acessórios
+371.508.496-01,Dra. Aylla Porto,18,Feminino,Guerra de Andrade,13,Acessórios
+602.581.743-07,Srta. Fernanda Leão,30,Masculino,Abreu,5,Camisetas
+936.204.185-51,Igor Vasconcelos,29,Masculino,Carvalho de da Paz,8,Acessórios
+754.896.031-00,Levi Sá,18,Masculino,Aparecida de Minas,0,Camisetas
+715.826.403-35,Sra. Maria Flor Camargo,21,Feminino,Martins,19,Camisetas
+194.750.683-84,Stella Fogaça,46,Masculino,Correia,11,Vestidos
+650.274.193-25,Yuri Gonçalves,52,Feminino,Melo,10,Camisetas
+409.832.157-23,Sr. Enzo Gabriel Santos,61,Feminino,Sales,6,Acessórios
+459.782.160-02,Antônio Fernandes,60,Masculino,da Rosa de Nunes,1,Calças
+307.564.128-62,Brenda Garcia,32,Feminino,Azevedo da Praia,12,Acessórios
+651.947.038-48,Sara Lopes,22,Masculino,Castro de Pinto,19,Camisetas
+920.514.873-32,Josué Ramos,53,Masculino,Moraes dos Dourados,0,Acessórios
+671.920.348-78,Ana Carolina Mendes,52,Masculino,da Paz do Amparo,17,Camisetas
+401.235.867-71,Kaique da Cruz,47,Feminino,Viana,7,Camisetas
+190.763.845-84,Vitória Jesus,65,Masculino,da Luz,18,Camisetas
+490.615.723-80,Benjamin Sousa,65,Masculino,Cirino,7,Vestidos
+930.845.672-47,Leandro Casa Grande,58,Masculino,Rezende,4,Calças
+674.290.185-30,Dr. Alexandre Moraes,36,Feminino,Novaes,7,Calças
+289.175.436-00,Milena Costela,38,Feminino,Rezende das Pedras,7,Calças
+640.392.751-52,Olivia Marques,21,Masculino,Vieira,8,Vestidos
+371.852.694-82,Sofia Almeida,41,Masculino,Rezende,2,Vestidos
+796.345.210-61,Sophie Ramos,18,Feminino,Pimenta,11,Acessórios
+325.471.986-73,Sra. Clara Nascimento,51,Feminino,Duarte da Prata,2,Vestidos
+705.836.214-90,José Nogueira,24,Feminino,Silveira de Minas,5,Acessórios
+269.751.043-52,Sra. Maria Eduarda Jesus,31,Feminino,Moreira da Prata,9,Vestidos
+340.521.896-98,Henry Gabriel da Cunha,23,Feminino,Castro Grande,0,Camisetas
+506.278.149-30,Nicole Cavalcanti,60,Feminino,da Rocha de Leão,5,Camisetas
+064.823.195-05,Arthur Miguel Pires,22,Feminino,Brito,5,Acessórios
+354.906.781-00,Ravi Siqueira,28,Feminino,Moreira,1,Calças
+240.965.871-76,Caio da Cunha,52,Masculino,Pastor,1,Acessórios
+681.975.320-95,Olívia Dias,41,Masculino,Cavalcanti da Prata,12,Camisetas
+601.549.782-30,Maya Albuquerque,37,Feminino,da Rocha,19,Calças
+027.564.198-85,Maria Melo,63,Masculino,Ribeiro,20,Acessórios
+597.630.421-43,Nicole Pastor,20,Feminino,Andrade do Norte,14,Calças
+971.450.623-99,Oliver Lima,65,Feminino,da Mota da Mata,19,Acessórios
+983.507.416-00,Liam Vasconcelos,46,Masculino,Vieira,3,Calças
+482.375.106-07,Raul Marques,44,Feminino,Vasconcelos,0,Vestidos
+517.326.908-12,Rafael Rocha,65,Feminino,Vieira,2,Vestidos
+314.092.867-03,Marcelo Cunha,23,Feminino,Pinto,5,Acessórios
+316.478.592-55,Maya Gonçalves,33,Feminino,Costela,13,Acessórios
+174.826.903-87,Srta. Lavínia Rocha,65,Feminino,Fogaça,19,Camisetas
+205.186.794-11,Ana Julia Rios,32,Feminino,Viana,0,Vestidos
+670.234.198-96,Henry da Cruz,49,Masculino,Rocha,0,Camisetas
+706.541.829-49,Benicio das Neves,53,Feminino,Gonçalves de Caldeira,13,Calças
+572.186.490-76,Antônio Fogaça,54,Masculino,Viana de Minas,13,Camisetas
+076.893.514-84,Danilo Leão,35,Masculino,Rodrigues,6,Calças
+246.150.379-61,Dra. Yasmin Vargas,21,Masculino,Farias de Goiás,12,Acessórios
+581.403.927-23,Dr. Cauê da Cunha,30,Masculino,Ribeiro das Pedras,0,Calças
+394.076.851-01,Sr. Yago Silveira,29,Masculino,Ribeiro do Oeste,17,Camisetas
+048.392.517-97,Théo Rocha,24,Masculino,Moreira de Machado,6,Camisetas
+953.142.086-60,Mariana Sousa,50,Masculino,Almeida de Borges,9,Acessórios
+143.295.867-46,Theo Machado,27,Masculino,da Rocha do Campo,10,Calças
+072.986.453-74,João Felipe Alves,62,Masculino,Duarte,4,Camisetas
+317.569.840-93,Ana Liz Pinto,52,Feminino,Nogueira Alegre,4,Vestidos
+065.193.728-03,Thiago Costela,57,Masculino,da Rocha,17,Acessórios
+205.731.698-02,Pedro Campos,24,Masculino,Novais,4,Calças
+946.278.350-00,Benjamim Pereira,33,Feminino,da Rosa Verde,15,Acessórios
+240.971.638-50,Laura Montenegro,38,Masculino,Vieira,7,Camisetas
+436.057.812-17,Melissa Leão,45,Feminino,Cunha do Galho,16,Vestidos
+037.465.921-43,Luiz Gustavo Câmara,52,Feminino,Vieira,5,Calças
+230.198.574-14,Antônio Andrade,33,Feminino,Mendonça Grande,19,Acessórios
+287.516.049-49,Isabel Moraes,45,Masculino,Barros,7,Camisetas
+389.027.156-12,Ravy Machado,26,Masculino,Barbosa de da Conceição,3,Calças
+908.723.561-59,Mirella Campos,52,Masculino,Duarte das Pedras,2,Calças
+718.065.394-20,Juliana Novaes,33,Masculino,Andrade,2,Camisetas
+942.150.763-07,Carolina Sousa,37,Feminino,Gonçalves do Galho,20,Camisetas
+231.694.758-19,Eduardo Barros,38,Feminino,Montenegro,20,Calças
+204.718.536-07,Aylla Pimenta,30,Feminino,Almeida,1,Acessórios
+658.713.490-48,Leonardo Novais,28,Masculino,Porto do Oeste,7,Calças
+392.051.684-24,João Miguel Câmara,49,Feminino,Correia de Goiás,18,Camisetas
+176.392.408-40,Milena Montenegro,23,Masculino,Duarte das Flores,9,Camisetas
+568.970.341-93,Julia Cardoso,31,Feminino,Montenegro,3,Vestidos
+569.170.832-59,Sr. Samuel Vieira,34,Feminino,Campos Grande,15,Calças
+487.516.032-17,Pietra Freitas,18,Masculino,das Neves da Serra,1,Calças
+361.592.074-07,Sr. Ian Sales,52,Masculino,Rocha de Azevedo,14,Vestidos
+735.128.496-28,Giovanna Peixoto,18,Feminino,Fogaça,13,Vestidos
+043.295.178-41,Bella Rocha,40,Masculino,Pastor,15,Calças
+394.810.276-78,Maria Sophia Monteiro,23,Feminino,Machado,0,Calças
+917.462.085-11,Léo Ribeiro,35,Feminino,Novais,4,Acessórios
+302.571.698-30,Sr. Antônio Castro,27,Feminino,Siqueira,5,Vestidos
+890.723.651-86,Renan Andrade,51,Masculino,Moraes Paulista,1,Vestidos
+650.738.291-40,Pedro Garcia,54,Feminino,Moura Alegre,4,Calças
+172.630.948-78,Benjamim Novaes,33,Masculino,Sampaio de Rios,20,Acessórios
+379.416.250-16,Ana Carolina Viana,30,Masculino,Barros,13,Camisetas
+086.217.349-31,Sra. Julia Farias,56,Feminino,da Mota Verde,14,Camisetas
+204.387.915-41,Gabriela Nogueira,22,Feminino,Lima,13,Camisetas
+394.715.806-84,Ana Laura Ferreira,44,Feminino,Duarte,9,Camisetas
+508.239.176-30,Sr. Valentim Nogueira,25,Feminino,da Luz do Norte,8,Acessórios
+952.760.831-77,Olívia Oliveira,40,Feminino,Ferreira de Aragão,1,Calças
+821.456.097-76,Hellena Freitas,52,Masculino,Cavalcante,1,Camisetas
+930.157.826-30,Theodoro Lopes,21,Feminino,Freitas de Castro,6,Vestidos
+231.897.450-05,Srta. Eloá Sales,18,Feminino,Azevedo,13,Vestidos
+523.697.018-03,Benjamim da Conceição,41,Feminino,Castro do Campo,1,Acessórios
+436.129.075-06,José Miguel Nogueira,22,Masculino,Abreu de Abreu,19,Camisetas
+169.782.453-64,Pietro Duarte,54,Feminino,Silveira,10,Camisetas
+682.940.157-76,Lara Monteiro,33,Feminino,Sales,14,Acessórios
+048.397.265-74,Lívia Rios,48,Feminino,Melo,15,Acessórios
+275.864.309-00,Sr. João Pedro da Rocha,33,Masculino,Novaes Paulista,13,Camisetas
+458.902.316-42,Bianca Cassiano,63,Masculino,Rezende de Minas,15,Acessórios
+701.849.562-85,Sarah Cassiano,33,Masculino,Barros Verde,19,Vestidos
+479.530.216-25,Srta. Fernanda Sousa,63,Masculino,Montenegro do Galho,19,Vestidos
+975.214.386-55,Marcela Pimenta,46,Feminino,Duarte,5,Calças
+791.485.206-67,Antony Farias,42,Masculino,Rios de da Conceição,11,Vestidos
+370.958.124-97,Maria Luiza Silveira,43,Masculino,Rezende,13,Calças
+280.734.519-05,Sofia Rios,54,Feminino,Machado da Praia,16,Acessórios
+976.215.048-11,Alana Jesus,29,Feminino,da Mota Paulista,11,Vestidos
+237.694.580-10,Rodrigo Ramos,48,Feminino,Peixoto Verde,5,Acessórios
+345.819.062-70,Dr. Yago Souza,41,Masculino,Garcia,12,Acessórios
+490.862.713-40,Melina Vargas,24,Feminino,Rios,16,Camisetas
+347.820.169-13,Sr. Dante Peixoto,27,Masculino,Barbosa do Oeste,15,Camisetas
+953.084.271-60,Sr. Bento Brito,28,Masculino,Andrade Alegre,19,Acessórios
+806.793.512-21,Dr. Apollo Montenegro,30,Masculino,Cirino,14,Acessórios
+017.582.493-23,Evelyn da Rocha,35,Masculino,Cardoso,18,Acessórios
+958.617.302-02,Stella Vargas,57,Masculino,Borges,7,Calças
+612.389.740-31,Srta. Sarah Porto,33,Feminino,Casa Grande,3,Camisetas
+147.982.506-94,Alexandre da Rosa,30,Masculino,Viana,2,Acessórios
+158.340.967-00,Brayan Sousa,24,Feminino,Pacheco de Marques,19,Acessórios
+076.823.954-00,Rael Cardoso,23,Feminino,Garcia da Prata,13,Camisetas
+648.015.792-30,Ana Carolina Melo,32,Feminino,Oliveira de Campos,14,Acessórios
+938.605.271-77,Julia da Costa,31,Masculino,Moraes Paulista,18,Acessórios
+123.589.476-28,Heloísa Peixoto,33,Masculino,Almeida de Minas,1,Camisetas
+501.498.276-01,Ravy Albuquerque,44,Feminino,Rios,10,Vestidos
+023.678.954-65,Dr. Benicio Machado,62,Feminino,Lima da Mata,16,Vestidos
+489.630.571-00,Valentim Cavalcanti,34,Masculino,Rodrigues de Minas,4,Acessórios
+435.786.291-46,Sr. Alexandre Ferreira,41,Masculino,Campos,0,Acessórios
+716.092.835-03,Sr. Davi Albuquerque,21,Feminino,Martins,12,Vestidos
+546.238.710-53,Sr. Francisco Campos,29,Masculino,Caldeira de da Mota,19,Vestidos
+038.671.429-04,Valentina Almeida,42,Masculino,Jesus,19,Vestidos
+608.253.791-21,Mathias Nogueira,26,Masculino,Lopes,6,Acessórios
+593.082.147-04,Sr. Bento Santos,50,Feminino,Araújo da Serra,19,Acessórios
+326.478.091-78,Natália Marques,47,Feminino,Sousa das Flores,11,Acessórios
+364.812.057-35,Sr. Guilherme Peixoto,57,Feminino,Sales,1,Vestidos
+243.957.816-91,Sr. Raul Vargas,25,Feminino,Lima,1,Calças
+263.587.104-35,Sra. Sophie Barbosa,31,Feminino,Cirino do Amparo,20,Camisetas
+806.173.492-31,Bella Fogaça,64,Masculino,Leão Paulista,7,Acessórios
+253.794.860-29,Pedro Henrique Caldeira,34,Feminino,Silveira da Serra,10,Camisetas
+802.756.419-02,Amanda Moreira,18,Feminino,Cassiano,7,Acessórios
+019.736.542-61,Rafaela da Mata,31,Feminino,da Luz,8,Acessórios
+015.692.784-58,Davi Luiz Garcia,40,Masculino,Pastor,3,Calças
+835.471.206-08,Danilo Sousa,48,Feminino,Araújo,9,Acessórios
+086.549.127-58,Vitor Hugo Novaes,39,Masculino,Ribeiro da Praia,19,Vestidos
+238.196.450-98,Yan Vasconcelos,26,Masculino,da Cruz da Serra,15,Camisetas
+925.310.476-70,Davi Lucas Porto,57,Feminino,Casa Grande,14,Vestidos
+471.532.096-70,Dr. Luiz Henrique Farias,23,Feminino,Cirino Verde,18,Calças
+572.864.903-38,Yasmin Guerra,61,Masculino,Monteiro do Oeste,18,Vestidos
+947.631.580-66,Ana Luiza Moreira,26,Feminino,Câmara de Minas,16,Vestidos
+923.568.107-30,Henry Marques,23,Masculino,Mendonça de Machado,2,Camisetas
+702.439.185-50,Melissa da Costa,54,Feminino,Ramos do Galho,9,Calças
+631.942.780-96,Olivia Rezende,42,Masculino,da Mota de Jesus,2,Acessórios
+895.617.423-73,Dr. Cauê da Mota,57,Masculino,Pinto,10,Vestidos
+627.940.835-38,Pietra Cavalcante,42,Masculino,Castro Verde,13,Vestidos
+608.749.532-00,Luiz Felipe Dias,61,Feminino,Azevedo do Sul,11,Camisetas
+843.695.120-42,Leandro Alves,19,Masculino,Leão,13,Calças
+140.598.327-23,Sr. Leandro da Mata,38,Masculino,Carvalho,17,Vestidos
+109.625.487-58,Maria Luiza Vargas,20,Feminino,Costa de Campos,0,Calças
+156.089.372-95,Isabel Guerra,63,Feminino,Rocha das Pedras,2,Calças
+548.972.136-73,Cecilia Dias,40,Feminino,Silva de da Mata,20,Vestidos
+738.160.245-80,Paulo Jesus,52,Feminino,Pimenta,3,Vestidos
+485.269.710-85,Benjamin Mendonça,36,Feminino,Camargo de Sampaio,16,Acessórios
+306.921.845-89,Henrique Melo,33,Masculino,Marques de Rios,9,Acessórios
+012.549.678-85,Diogo Cassiano,40,Masculino,Teixeira,8,Calças
+985.431.207-05,Thiago Gomes,40,Masculino,Barbosa,7,Camisetas
+914.652.738-91,Pedro Lucas Carvalho,50,Masculino,Silveira da Serra,3,Calças
+608.971.524-76,Juan Fernandes,34,Feminino,Marques de Minas,10,Camisetas
+304.798.265-10,Laura Gomes,56,Feminino,Cavalcante,11,Calças
+279.864.015-67,Maya Almeida,44,Masculino,Carvalho de Garcia,17,Calças
+847.659.201-94,Brayan Gonçalves,55,Feminino,Albuquerque Alegre,19,Camisetas
+267.581.904-20,Rael Pires,57,Masculino,Martins do Amparo,12,Calças
+657.938.012-86,Paulo Viana,25,Feminino,Dias de Borges,3,Vestidos
+267.530.981-86,Nicole Vargas,29,Feminino,da Luz do Campo,8,Camisetas
+413.672.580-90,Mariah Barros,53,Masculino,Mendes,2,Acessórios
+476.182.935-46,Heloisa Lima,55,Feminino,Mendes,1,Camisetas
+029.817.645-94,Sra. Juliana da Rocha,55,Feminino,Vieira de Ramos,1,Camisetas
+243.918.675-91,Maria Helena Moura,41,Feminino,Duarte,1,Acessórios
+816.402.753-71,Diego Pimenta,43,Feminino,Lima de Goiás,1,Acessórios
+185.370.492-04,Nathan Pires,24,Masculino,Macedo,7,Calças
+750.283.469-92,Luiz Otávio Mendes,63,Masculino,Santos,17,Camisetas
+682.409.173-13,Catarina Cavalcanti,24,Masculino,Nascimento Paulista,13,Calças
+379.245.061-52,Pedro Miguel Cavalcanti,39,Feminino,Souza do Galho,0,Vestidos
+896.234.705-92,Sr. Matteo Macedo,54,Masculino,da Mota,18,Acessórios
+189.547.362-46,Arthur Moura,39,Feminino,Sales,6,Vestidos
+160.498.732-40,Lucas Pacheco,62,Feminino,da Cruz da Mata,10,Acessórios
+792.610.853-77,Gustavo das Neves,36,Masculino,da Luz,16,Calças
+516.923.780-40,Bruno Farias,22,Feminino,Casa Grande de Fonseca,19,Calças
+109.782.564-76,Ian Casa Grande,62,Feminino,Duarte,11,Camisetas
+843.521.607-17,Ravi Pinto,56,Masculino,da Rosa de Marques,4,Camisetas
+870.256.413-08,Kamilly Ribeiro,33,Masculino,Mendonça,1,Vestidos
+569.487.210-01,Marcelo Novais,41,Feminino,Guerra,14,Vestidos
+348.120.975-41,Isadora Araújo,47,Feminino,Garcia,9,Acessórios
+159.634.078-93,Bruna Novaes,63,Masculino,Costa da Mata,1,Calças
+601.978.354-57,Asafe Gomes,40,Feminino,Castro Grande,1,Calças
+641.079.823-78,Vinicius Cavalcante,60,Masculino,Rezende,20,Vestidos
+308.451.796-75,Dante Costela,38,Masculino,Campos Alegre,11,Camisetas
+352.678.410-80,Vitória Câmara,63,Masculino,Barros do Galho,14,Camisetas
+412.709.536-99,Evelyn Andrade,42,Masculino,Rocha,3,Vestidos
+104.289.736-04,Isadora Martins,30,Feminino,Siqueira da Serra,20,Calças
+012.846.379-13,Antony Sousa,23,Masculino,Nogueira,3,Vestidos
+721.548.390-88,Cecilia Guerra,21,Masculino,Araújo,11,Vestidos
+247.893.150-88,Marcos Vinicius Marques,32,Feminino,Rios de Goiás,3,Calças
+251.830.674-90,Sra. Maria Júlia das Neves,48,Feminino,da Rocha do Norte,11,Calças
+962.308.417-03,Raul Garcia,23,Feminino,Casa Grande de Sales,8,Calças
+842.730.519-23,Benjamin Mendes,55,Masculino,Aragão de da Costa,3,Vestidos
+498.075.613-10,Srta. Yasmin Correia,45,Feminino,Campos do Campo,12,Vestidos
+602.489.753-74,Maya Garcia,37,Masculino,Moreira Grande,13,Camisetas
+736.129.058-21,Luigi Monteiro,43,Masculino,Aragão,18,Camisetas
+650.729.843-38,Mathias Nunes,58,Feminino,Monteiro de Campos,3,Camisetas
+460.835.792-10,Isaac Macedo,42,Masculino,Nogueira,6,Vestidos
+826.059.731-40,Vitor Viana,54,Masculino,da Mota,19,Camisetas
+536.947.021-99,Gael da Cruz,48,Feminino,Pimenta,20,Vestidos
+379.654.218-28,Gustavo Aparecida,55,Masculino,Cavalcanti Alegre,4,Calças
+395.728.610-77,Bianca Moraes,61,Masculino,Novais,15,Vestidos
+831.026.597-21,Heloísa Câmara,21,Masculino,Vieira,15,Camisetas
+362.170.894-40,Alícia Castro,45,Masculino,Oliveira do Sul,15,Acessórios
+741.985.263-46,Bryan Ramos,64,Masculino,da Cunha,9,Acessórios
+520.617.948-58,Leonardo Pimenta,57,Feminino,Novaes do Oeste,17,Camisetas
+281.743.065-44,Vicente Vargas,25,Masculino,Viana,12,Vestidos
+460.173.852-08,Caleb Fonseca,47,Masculino,Melo,11,Calças
+843.621.570-26,Arthur Miguel da Mota,29,Masculino,da Luz,14,Vestidos
+657.849.103-10,Davi Miguel Castro,37,Feminino,da Cunha do Galho,12,Camisetas
+892.605.413-60,Dr. Bento Peixoto,23,Masculino,Jesus Paulista,6,Camisetas
+096.214.758-30,Sara Vieira,40,Masculino,Azevedo,10,Camisetas
+592.367.840-38,Isaac Novaes,65,Masculino,Alves,0,Camisetas
+798.056.123-68,Maria Luísa Aragão,43,Masculino,Leão,13,Calças
+107.462.358-44,Sr. Cauã Pires,52,Masculino,Caldeira Grande,18,Acessórios
+691.230.478-87,Lorenzo Cavalcanti,39,Feminino,Fonseca das Pedras,10,Calças
+624.381.750-44,Nina Silva,50,Masculino,Macedo,3,Calças
+194.723.658-09,Kevin Siqueira,49,Masculino,Moura,18,Acessórios
+431.960.285-42,Ana Lívia Alves,22,Masculino,Santos,20,Camisetas
+356.902.471-70,Danilo da Cruz,62,Feminino,Novaes,14,Vestidos
+284.136.075-07,Nathan Mendonça,50,Feminino,Garcia das Flores,18,Calças
+243.087.691-40,Erick Montenegro,23,Masculino,Ribeiro,5,Calças
+038.596.412-98,Henrique Oliveira,42,Feminino,Barros de Moreira,9,Calças
+041.872.569-11,Renan Rodrigues,23,Feminino,Melo Verde,19,Acessórios
+491.706.358-20,Igor Teixeira,32,Feminino,Vargas Grande,19,Camisetas
+751.926.384-37,Otto Rodrigues,48,Feminino,Jesus,17,Camisetas
+926.583.074-38,Sr. Miguel Pimenta,64,Masculino,Melo do Campo,15,Acessórios
+215.698.473-55,Dr. Davi Miguel Novaes,40,Feminino,Novaes da Prata,2,Vestidos
+380.421.795-88,Rodrigo Cavalcante,30,Feminino,Albuquerque do Amparo,11,Acessórios
+718.469.253-55,Ágatha Novais,65,Feminino,Rios,3,Vestidos
+495.807.312-41,Sr. Nathan Moreira,47,Masculino,Gomes de Nascimento,19,Vestidos
+743.196.208-87,Ana Sophia Rezende,50,Masculino,Fonseca,16,Calças
+613.259.874-09,João Pedro das Neves,45,Masculino,Camargo do Galho,12,Camisetas
+865.104.329-51,Olívia Barros,56,Masculino,Jesus,3,Calças
+058.324.697-47,Ana Beatriz Garcia,30,Masculino,Teixeira,0,Calças
+963.705.824-92,Mirella Mendonça,52,Feminino,Araújo,13,Calças
+541.609.723-06,Liz Araújo,62,Masculino,Cavalcanti,12,Acessórios
+962.187.405-01,Luiz Gustavo da Cunha,62,Masculino,Santos,10,Camisetas
+285.639.147-82,Esther Moraes,58,Feminino,Machado do Campo,17,Acessórios
+139.805.467-48,Calebe da Conceição,50,Masculino,Montenegro,9,Camisetas
+485.612.093-05,Heloisa Nascimento,20,Feminino,Siqueira do Norte,15,Calças
+536.792.184-19,Lunna Fernandes,32,Feminino,da Costa do Norte,11,Calças
+710.253.489-23,Clara Ferreira,61,Feminino,Leão,12,Calças
+968.214.530-98,André Aragão,31,Feminino,Siqueira,16,Vestidos
+857.092.614-67,Murilo Nogueira,21,Feminino,Barbosa,10,Calças
+378.925.410-04,Pedro Henrique Andrade,55,Masculino,Rocha,15,Camisetas
+038.952.617-77,Evelyn da Paz,51,Feminino,Fonseca,13,Acessórios
+792.638.541-73,Sr. Vitor Hugo Mendes,64,Feminino,Silveira de Minas,8,Calças
+426.715.903-34,Bella Cardoso,36,Masculino,Sampaio,19,Vestidos
+236.875.049-56,Calebe Nascimento,40,Masculino,Borges,6,Vestidos
+156.483.279-19,Laura da Cruz,24,Masculino,Pinto da Praia,11,Camisetas
+609.834.275-00,Ana Luiza Mendes,24,Masculino,Nunes,5,Calças
+912.068.357-02,Anthony da Conceição,48,Masculino,Jesus,6,Calças
+593.178.420-97,Natália Monteiro,65,Feminino,Barros do Sul,10,Camisetas
+937.604.821-04,Sr. Juan Montenegro,24,Masculino,Cardoso,7,Vestidos
+547.318.209-79,Maria Jesus,61,Masculino,Novais de Gomes,18,Vestidos
+850.329.761-21,Théo Ramos,40,Feminino,Pacheco Alegre,9,Vestidos
+709.235.481-14,Kamilly Vasconcelos,23,Masculino,Cassiano do Oeste,7,Vestidos
+127.094.856-30,Levi Rocha,60,Masculino,Caldeira da Mata,0,Calças
+467.150.823-08,Bella Pimenta,39,Feminino,Jesus de da Cruz,10,Calças
+951.832.470-05,Cauê Pacheco,49,Masculino,Cardoso,7,Acessórios
+640.915.378-39,José Miguel da Costa,60,Feminino,Campos do Oeste,19,Calças
+567.439.821-64,Dra. Hellena da Cruz,63,Feminino,Cavalcanti,4,Acessórios
+158.264.793-37,Maria Alice Pereira,46,Masculino,Sá,19,Acessórios
+814.976.502-67,Sr. Luiz Henrique Caldeira,35,Feminino,Rodrigues de Campos,6,Calças
+458.937.216-91,Maria Luísa Viana,28,Feminino,Aragão,0,Acessórios
+426.513.089-51,Anthony da Cruz,21,Masculino,da Costa,20,Camisetas
+372.146.098-78,Maria Fernanda Montenegro,29,Masculino,da Rosa do Norte,15,Acessórios
+470.153.629-61,Benjamin Pacheco,48,Feminino,Silva,16,Vestidos
+417.639.205-34,Davi Miguel Pimenta,61,Masculino,Vieira,1,Acessórios
+856.273.401-26,Dom da Mota,44,Masculino,Machado,20,Calças
+360.129.845-70,Gael Melo,35,Feminino,Sales da Praia,19,Acessórios
+748.612.509-94,Daniela Pinto,49,Masculino,Monteiro,7,Acessórios
+176.052.983-40,Marina Fogaça,45,Feminino,Cirino do Sul,15,Vestidos
+627.895.014-67,Gustavo Sá,52,Masculino,Martins,16,Acessórios
+296.175.430-52,Heitor Vasconcelos,53,Masculino,Cavalcanti,12,Camisetas
+431.965.208-89,Oliver Câmara,62,Feminino,Pastor Alegre,19,Camisetas
+189.350.647-93,Carlos Eduardo Lima,28,Feminino,Aparecida,20,Calças
+807.539.614-66,Sr. João Guilherme Teixeira,55,Masculino,Rios,20,Acessórios
+746.935.128-00,Sr. Otto Rocha,22,Masculino,Nogueira,18,Camisetas
+302.654.879-00,Sr. Gustavo Henrique da Rosa,58,Feminino,Araújo do Campo,6,Vestidos
+748.539.012-05,Ana Luiza Rezende,34,Masculino,Rios,12,Vestidos
+694.581.370-39,Dr. Vitor Gabriel Aparecida,34,Feminino,Gomes,2,Acessórios
+620.841.975-11,Sra. Joana Pires,29,Feminino,Sousa,1,Camisetas
+592.738.641-55,Melina Moura,34,Feminino,Jesus,5,Vestidos
+165.970.824-94,Srta. Ana Julia Alves,40,Feminino,Cassiano do Oeste,16,Vestidos
+519.206.843-60,Isabel Montenegro,53,Feminino,Carvalho,20,Acessórios
+481.603.752-71,Gustavo da Mata,51,Masculino,Viana de Lopes,14,Camisetas
+105.946.837-93,Ana Beatriz Sá,40,Masculino,Nascimento,9,Camisetas
+347.125.609-16,Letícia Melo,37,Feminino,Fonseca,10,Camisetas
+950.761.842-20,Lucca Ramos,32,Masculino,Cunha,17,Vestidos
+496.073.218-04,Sr. Murilo Monteiro,28,Masculino,Almeida da Serra,15,Vestidos
+306.541.897-57,Olivia Farias,28,Feminino,Cavalcanti de Peixoto,20,Camisetas
+326.509.148-15,Heitor Pinto,60,Masculino,Moura do Sul,17,Vestidos
+694.713.502-80,Gabriel Melo,44,Feminino,Nascimento,12,Calças
+743.915.026-07,Lara Aparecida,27,Feminino,da Cunha da Prata,3,Camisetas
+241.865.739-64,Oliver Sousa,26,Feminino,da Costa,11,Calças
+930.568.274-00,Melina Machado,41,Feminino,Rocha,13,Acessórios
+687.309.542-74,Sophie Azevedo,48,Masculino,Carvalho,6,Calças
+746.152.809-20,Raquel Cunha,29,Masculino,Macedo,8,Calças
+039.185.274-41,Igor Freitas,49,Masculino,Fernandes,20,Calças
+193.865.407-20,Maria Liz Sampaio,60,Masculino,Brito,10,Calças
+235.690.418-24,Dr. Leonardo Monteiro,23,Masculino,Vargas Grande,7,Acessórios
+840.591.736-57,Cauê Fonseca,58,Masculino,Rocha de Oliveira,2,Camisetas
+569.203.784-00,Rafael Santos,40,Masculino,Vargas,15,Camisetas
+687.359.241-28,João Miguel Campos,29,Masculino,Marques,12,Acessórios
+418.239.750-97,Sra. Aylla Rios,40,Feminino,Farias,5,Calças
+856.139.402-15,Bárbara Campos,62,Feminino,Sousa,14,Acessórios
+721.048.653-44,Yasmin Vargas,20,Masculino,Rios,8,Vestidos
+241.730.856-80,Maria Laura da Cruz,60,Masculino,Aparecida,16,Vestidos
+903.546.712-43,Daniel Cavalcante,30,Feminino,Rocha,19,Calças
+510.764.328-08,Gabriel Nascimento,52,Masculino,Macedo,7,Acessórios
+783.269.540-47,Agatha da Rosa,55,Feminino,Camargo,6,Calças
+952.378.460-92,Benício Fernandes,26,Masculino,Sousa,5,Acessórios
+072.658.193-30,Maria Barros,39,Masculino,Abreu,14,Camisetas
+962.145.708-49,Davi Miguel Novais,62,Masculino,Macedo do Sul,0,Vestidos
+369.425.180-42,Maria Júlia Novaes,40,Feminino,da Costa,20,Camisetas
+174.820.563-35,Luiz Fernando da Cruz,35,Feminino,Viana,2,Calças
+201.839.456-89,Heitor Moraes,23,Masculino,Lopes,19,Calças
+608.249.731-78,Aylla Jesus,22,Masculino,da Costa,11,Vestidos
+843.506.729-74,Srta. Laís da Luz,36,Masculino,Brito de das Neves,2,Camisetas
+043.751.692-06,Sr. Samuel Lopes,41,Feminino,Azevedo Grande,13,Acessórios
+741.098.653-01,João Lucas Abreu,27,Feminino,Marques,6,Camisetas
+128.645.039-05,Maria Laura Montenegro,23,Masculino,Vasconcelos das Pedras,0,Camisetas
+758.261.903-02,Sofia Souza,63,Feminino,Aparecida do Galho,12,Vestidos
+924.501.863-60,Luigi Carvalho,48,Masculino,Porto de da Cunha,5,Vestidos
+946.053.217-99,Liam Sá,41,Feminino,Silveira das Pedras,17,Acessórios
+134.692.508-98,Sr. Murilo Sá,22,Masculino,Camargo,3,Vestidos
+093.765.184-20,Beatriz Andrade,42,Masculino,Rodrigues,16,Camisetas
+794.502.681-85,Heloisa Monteiro,50,Feminino,Cassiano de Goiás,10,Camisetas
+672.503.184-62,Maria Eduarda Aragão,43,Feminino,Oliveira da Mata,20,Acessórios
+209.813.564-51,Sr. Calebe Casa Grande,54,Masculino,Albuquerque Alegre,5,Camisetas
+014.597.836-20,Sr. Joaquim Camargo,33,Feminino,Campos do Norte,14,Calças
+917.260.835-86,Arthur Ribeiro,65,Feminino,Borges,0,Calças
+257.031.896-59,Amanda Novais,31,Masculino,Pereira,9,Calças
+687.094.512-85,Jade Ramos,45,Feminino,Sales,1,Acessórios
+832.406.915-15,Sr. Lucca Barros,37,Feminino,da Mota,3,Acessórios
+560.298.417-85,Heloísa Cardoso,41,Masculino,da Cunha do Sul,6,Calças
+257.981.346-28,Maria Cecília das Neves,59,Feminino,Andrade de Rios,14,Calças
+680.731.429-96,Matteo Jesus,57,Masculino,Leão,16,Camisetas
+572.386.490-47,Emanuella Aparecida,53,Masculino,Moura da Mata,19,Camisetas
+912.867.504-58,Ryan Barros,58,Feminino,Teixeira,20,Vestidos
+134.752.809-14,Bianca Caldeira,30,Feminino,Moura de Rios,1,Acessórios
+803.254.961-70,Julia Lima,27,Feminino,Abreu de Goiás,12,Vestidos
+873.046.915-57,Ágatha Marques,24,Feminino,Araújo das Pedras,0,Calças
+067.395.482-00,Leandro Câmara,60,Feminino,Câmara,13,Calças
+976.458.013-01,Nathan Teixeira,19,Feminino,Melo,20,Camisetas
+819.756.230-02,Liam Moreira,50,Feminino,Aragão de Silva,11,Vestidos
+501.946.372-80,Matteo Pinto,37,Masculino,Cunha,13,Acessórios
+328.450.697-74,Brenda Jesus,55,Feminino,Cavalcanti de da Mota,3,Acessórios
+726.538.104-17,Leonardo Câmara,49,Feminino,Barbosa,12,Vestidos
+142.350.967-61,Laís Vieira,38,Feminino,Pereira,5,Calças
+409.617.283-96,Isabela Dias,29,Masculino,Machado de Vargas,12,Vestidos
+489.512.760-58,Aurora Alves,28,Masculino,da Costa,11,Vestidos
+540.287.691-67,Davi Miguel Dias,39,Feminino,Melo do Norte,19,Calças
+982.061.573-95,Raquel Sampaio,62,Masculino,Sá do Campo,1,Camisetas
+672.913.840-87,Ana Vitória das Neves,65,Feminino,Aragão Alegre,15,Vestidos
+826.491.730-50,Ayla Rios,38,Feminino,Viana,1,Camisetas
+510.769.328-86,Francisco da Mata,32,Masculino,Viana de Nascimento,7,Vestidos
+504.698.721-01,Samuel Barbosa,45,Feminino,Porto Verde,15,Acessórios
+167.025.498-49,Erick Cirino,40,Feminino,Dias do Norte,15,Calças
+679.451.302-16,Bento Montenegro,63,Masculino,Porto,18,Acessórios
+754.126.093-25,Dr. José Pedro Barros,41,Masculino,Sampaio da Prata,14,Acessórios
+082.437.951-97,Ana Laura Rezende,39,Masculino,Nogueira de Cassiano,17,Acessórios
+641.907.853-93,Calebe Peixoto,64,Masculino,da Rosa das Pedras,1,Camisetas
+913.250.687-21,Antonella Monteiro,65,Masculino,Santos do Amparo,1,Acessórios
+285.314.607-35,Ana Abreu,39,Feminino,da Conceição Paulista,16,Vestidos
+176.042.958-94,Sabrina Borges,30,Masculino,Azevedo de Sá,15,Camisetas
+075.289.314-97,Breno Mendes,44,Feminino,Vieira,15,Acessórios
+782.450.936-29,Antônio das Neves,43,Masculino,Borges de Campos,15,Calças
+362.914.870-04,Calebe Moraes,34,Feminino,Farias do Campo,3,Vestidos
+806.247.951-01,Carlos Eduardo Macedo,57,Masculino,Nunes da Mata,5,Acessórios
+421.987.036-96,Marcos Vinicius Sales,59,Feminino,Sales,7,Calças
+769.832.140-13,Emanuelly Leão,28,Feminino,Siqueira do Norte,6,Calças
+348.597.261-46,Sr. Vitor da Costa,22,Masculino,Lopes,16,Calças
+284.361.597-64,Gabrielly Viana,35,Masculino,Correia de Goiás,2,Calças
+517.409.263-07,Isabelly Novais,36,Feminino,Correia de Santos,16,Acessórios
+742.683.591-09,Cecília Vargas,19,Feminino,Mendes,14,Camisetas
+652.084.319-98,Sra. Eloah da Costa,26,Masculino,Costa,0,Calças
+640.528.397-65,Alice Caldeira,50,Masculino,Melo,18,Calças
+230.694.851-89,Vinicius Cassiano,22,Feminino,Costa,6,Camisetas
+451.802.369-24,Dra. Melina Machado,43,Feminino,Caldeira das Pedras,7,Camisetas
+107.485.639-20,Mirella Fogaça,31,Feminino,Camargo,4,Calças
+102.854.937-79,Sr. Josué Camargo,51,Masculino,Sá,20,Acessórios
+657.481.290-94,Gael Henrique da Costa,41,Feminino,Abreu de Cassiano,12,Calças
+509.278.316-86,Sr. Pedro Melo,47,Masculino,Rios de Goiás,3,Vestidos
+783.146.502-26,Gustavo Henrique Almeida,24,Masculino,Costa,16,Vestidos
+725.806.439-74,Francisco Moreira,46,Feminino,Rocha,20,Acessórios
+397.165.842-37,Rodrigo Moraes,49,Masculino,Fernandes de Moraes,19,Acessórios
+716.805.492-94,Theodoro da Paz,55,Feminino,Cavalcanti do Sul,0,Calças
+159.260.437-43,Brayan Lopes,23,Feminino,Ramos,18,Acessórios
+182.450.639-24,Enrico Lima,54,Masculino,Almeida do Campo,20,Vestidos
+923.815.746-46,Luiz Fernando Sampaio,57,Feminino,Macedo do Campo,3,Acessórios
+578.490.213-04,Manuela Silva,65,Feminino,Monteiro,1,Acessórios
+158.462.073-08,Milena Nascimento,49,Masculino,Pimenta,20,Acessórios
+716.439.285-46,Luiz Henrique Abreu,39,Feminino,Nascimento,17,Acessórios
+296.183.054-06,Luana Martins,39,Feminino,Cavalcante,11,Calças
+480.125.673-26,Maitê Guerra,38,Masculino,Nunes,0,Vestidos
+921.053.647-99,Srta. Emilly Siqueira,47,Masculino,Gomes,3,Acessórios
+346.705.829-92,André Moraes,18,Feminino,Gonçalves,2,Calças
+270.853.946-92,Helena Castro,42,Feminino,Cavalcanti de Barbosa,16,Vestidos
+192.780.365-95,Luiz Felipe Azevedo,38,Feminino,Santos,5,Calças
+679.453.201-80,Josué Borges,51,Feminino,Costela de Montenegro,15,Camisetas
+932.468.570-83,Isaac Cavalcante,43,Masculino,Gonçalves de da Cruz,4,Camisetas
+160.974.523-06,Cecilia Fonseca,47,Masculino,Vieira,11,Calças
+346.205.187-35,Léo Costa,51,Masculino,Cirino,1,Vestidos
+501.284.376-26,Liz Barbosa,64,Masculino,Lima do Norte,12,Calças
+124.895.760-11,Manuela Garcia,50,Feminino,Sales,11,Camisetas
