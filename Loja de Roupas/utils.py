@@ -1,9 +1,29 @@
 from dataset import df,clientes,estoque
 import pandas as pd
 import streamlit as st
-import time
 from vendas import vendas
 
+
+def sidebarfun():
+    filtros_loja = st.sidebar.multiselect(
+    'Loja',df['Local_Venda'].unique()
+    
+    )
+    filtros_categoria = st.sidebar.multiselect(
+        'Categoria', df['Categoria'].unique()
+    )
+    filtros_formapgmt = st.sidebar.multiselect(
+        'Forma de Pagamento', df['Forma_Pagamento'].unique()
+    )
+
+    if filtros_loja:
+        df = df[df['Local_Venda'].isin(filtros_loja)].copy()
+        
+    if filtros_categoria:
+        df = df[df['Categoria'].isin(filtros_categoria)].copy()
+
+    if filtros_formapgmt:
+        df = df[df['Forma_Pagamento'].isin(filtros_formapgmt)].copy()
 
 #onde as vendas foram realizadas
 def format_number(value, prefix = ''):
@@ -15,6 +35,7 @@ def format_number(value, prefix = ''):
 #produtos mais vendidos por período
 
 def calculo_por_data():
+    st.subheader("Receita por período")
     dados_filtrados = pd.DataFrame()
     data_minima = vendas['Data_Hora'].min().date()
     data_maxima = vendas['Data_Hora'].max().date()
@@ -53,6 +74,8 @@ def calculo_por_data():
         st.metric(f"Ticket Médio", format_number((ticket_medio), 'R$'))
     else:
          st.warning("Coluna 'Valor_Total' não encontrada ou sem dados filtrados.")
+    
+    return dados_filtrados
          
     #st.metric("Receita Total:",format_number(df['Valor_Total'].sum(), 'R$'))
 

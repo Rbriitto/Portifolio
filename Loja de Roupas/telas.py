@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-from dataset import df,estoque
-from utils import format_number, calculo_por_data,consulta_vendas,consulta_estoque
-from  datetime import datetime
+from dataset import df
+from utils import format_number, calculo_por_data,consulta_vendas
 from visualizandoEstoque import visu
+
 
 
 st.set_page_config(layout="wide")
@@ -39,13 +39,9 @@ if filtros_formapgmt:
 with aba1:
    st.metric("Receita Total:",format_number(df['Valor_Total'].sum(), 'R$'))
    st.dataframe(df)
-    
-
-
-with aba2:
-    st.subheader("Receita por período")
-    calculo_por_data()   
    
+with aba2:
+    calculo_por_data()  
     
 with aba3:
     consulta_vendas()
