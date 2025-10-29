@@ -1,0 +1,94 @@
+<html>
+<head>
+    <h1>Proposta</h1>
+<hr>
+</head>
+
+    <body>
+        <h2>🎯 1 - Análises Gerais de Popularidade</h2>
+    
+        <p><h3>Tratamentos:</h3></p>
+        
+        <input type="checkbox">1️⃣ Converter colunas numéricas como streams, energy_%, danceability_% em tipo numérico (float/int).<br>
+        <input type="checkbox">💹 Remover outliers de músicas com valores muito acima da média de streams.<br>
+        <input type="checkbox">🦾 Agrupar por artista ou ano para somar total de streams.<br>
+
+
+        <p><h3>Gráficos sugeridos:</h3></p>
+        <input type="checkbox">📊 Top 10 artistas com mais streams → gráfico de barras.<br>
+        <input type="checkbox">📈 Evolução anual dos streams → gráfico de linha (ano × total de streams).<br>
+        <input type="checkbox">🥇 Top 10 músicas mais tocadas → barras horizontais.
+
+<hr>
+        <h2>🎶 2. Perfil Musical (Análise Sonora)</h2>
+        <p><h3>Tratamentos:</h3></p>
+
+        <input type="checkbox">✅ Normalizar ou padronizar colunas como energy_%, danceability_%, valence_%, acousticness_%.<br>
+        <input type="checkbox">🥇 Calcular médias por artista, gênero (se existir) ou ano.<br>
+
+        <p><h3>Gráficos sugeridos:</h3></p>
+        <input type="checkbox">📈 Correlação entre energia e dançabilidade → gráfico de dispersão.<br>
+        <input type="checkbox">🧭 Radar Chart (gráfico de aranha) mostrando médias de energy, danceability, valence de um artista.<br>
+        <input type="checkbox">💫 Distribuição de energia das músicas → histograma.<br><br><br>
+    
+<hr>
+        <h2>📆 3. Lançamentos e Tendências</h2>
+        <p><h3>Tratamentos:</h3></p>
+        <input type="checkbox">📅 Criar uma coluna de data (released_date) juntando ano, mês e dia.<br>
+        <input type="checkbox">📅 Converter para datetime e agrupar por mês/ano.<br>
+
+        <p><h3>Gráficos sugeridos:</h3></p>
+        <input type="checkbox">📅 Quantidade de lançamentos por ano → linha ou barras.<br>
+        <input type="checkbox">🕺 Média de dançabilidade por ano → linha (mostra tendências musicais ao longo do tempo).<br>
+<hr>
+        <h2>🎧 4. Comparativo entre Plataformas</h2>
+        <p><h3>Tratamentos:</h3></p>
+        <h4>Somar ou calcular médias das colunas </h4>
+        <input type="checkbox">🟢in_spotify_playlists <br>
+        <input type="checkbox">🔵in_apple_playlists <br>
+        <input type="checkbox">🟣in_deezer_playlists<br><br>
+
+        <h4>Criar métricas como: </h4>
+        <code>df['presenca_total'] = df['in_spotify_playlists'] + df['in_apple_playlists'] + df['in_deezer_playlists']</code><br>
+
+        <p><h3>Gráficos sugeridos:</h3></p>
+        <input type="checkbox"> 🟢🔵🟣 Comparativo de presença por plataforma → gráfico de barras agrupadas.<br>
+        <input type="checkbox"> 📊 Correlação entre popularidade nas plataformas → heatmap de correlação<br><br><br>
+<hr>
+        <h2>🧠 5. Insights Avançados</h2>
+        <p><h3>Tratamentos:</h3></p>
+        <h4>Calcular correlação entre streams e características sonoras:</h4>
+        <code>df[['streams', 'energy_%', 'danceability_%', 'valence_%']].corr()</code><br>
+        <h4>Descobrir padrões com agrupamentos:</h4>
+        <code>df.groupby('key')['streams'].mean()</code><br>
+
+        <p><h3>Gráficos sugeridos:</h3></p>
+        <input type="checkbox"> 🔥 Heatmap de correlação (ver o que mais influencia nos streams).<br>
+        <input type="checkbox"> 🧩 Gráfico de barras por tonalidade (key) → média de streams por tom musical.<br><br>
+
+<hr>
+
+        <h2>💡Extras interessantes</h2> 
+        <input type="checkbox">🙊 Filtrar artistas com mais de X músicas no dataset e comparar médias de dançabilidade, energia, etc.<br>
+        <input type="checkbox">🙈 Criar rankings dinâmicos com plotly.express (usando sliders por ano).<br>
+        <input type="checkbox">🙉 Gerar dashboards interativos com Streamlit<br>
+        
+
+    </body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+.
